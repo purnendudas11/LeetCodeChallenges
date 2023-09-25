@@ -19,7 +19,7 @@ public class SingleNumber {
 
         Person person = new Person();
 
-        //test comment for git
+        //Test comment in main
         return map.entrySet().stream().filter(e -> e.getValue() == 1).findFirst().get().getKey();
 
     }
