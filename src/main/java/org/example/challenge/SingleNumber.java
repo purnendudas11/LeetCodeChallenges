@@ -19,6 +19,7 @@ public class SingleNumber {
 
         Person person = new Person();
 
+        //added the test comment again
         return map.entrySet().stream().filter(e -> e.getValue() == 1).findFirst().get().getKey();
 
     }
